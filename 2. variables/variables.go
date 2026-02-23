@@ -1,17 +1,31 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	_ "math"
+)
 
 
 var last = "Waddo"
 
 func main() {
-	// var id int = 1
-	// var name string = "Naveed"
-	// var isAlive bool = true
 
-	last := "Change"
+	 city := "Mumbai"
+	 pin := 413004
+
+	 var num1 int = 3
+	 var num2 = float32(num1)
+
+	 const daysInWeek  = 7
+
+	 var d float64 = daysInWeek
+
+	 fmt.Println(num2)
+	 fmt.Println(daysInWeek)
 
 
-	fmt.Println(last)
+	city , pin , country  := "Solapur" , 41305 , "india"
+
+	fmt.Printf("city : %s | Pin : %d | Country : %s" , city , pin , country)
+
 }
